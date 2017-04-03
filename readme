@@ -1,0 +1,31 @@
+compile program with g++ :
+$ make
+You will get a executable file named lab3 for question A.
+
+Question B:
+
+size=1000:
+sort(): 0.000245 seconds
+v1/v2 are different.
+insertion_sort(): 0.010053 seconds
+v1/v2 are the same.
+
+size=10000:
+sort(): 0.00283 seconds
+v1/v2 are different.
+insertion_sort(): 1.09871 seconds
+v1/v2 are the same.
+
+size=100000:
+sort(): 0.034897 seconds
+v1/v2 are different.
+insertion_sort(): 109.689 seconds
+v1/v2 are the same.
+
+size=1000000:
+
+
+最快的比較排序為O(nlogn)輸入為10倍時所需時間為10倍
+插入排序為O(n^2)輸入為10倍時所需時間為10^2=100倍
+
+
