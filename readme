@@ -23,6 +23,10 @@ insertion_sort(): 109.689 seconds
 v1/v2 are the same.
 
 size=1000000:
+sort(): 0.413958 seconds
+v1/v2 are different.
+insertion_sort(): 10919 seconds
+v1/v2 are the same.
 
 
 最快的比較排序為O(nlogn)輸入為10倍時所需時間為10倍
